@@ -1,0 +1,21 @@
+{
+  "name": "mykyta65536/billpay-lib",
+  "description": "Billpay LIB Module",
+  "autoload": {
+    "psr-4": {
+      "SprykerEco\\": "src/SprykerEco/",
+      "SprykerEcoTest\\": "tests/SprykerEcoTest/"
+    }
+  },
+  "license": "proprietary",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
